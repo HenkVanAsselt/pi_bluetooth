@@ -1,0 +1,38 @@
+syntax: glob
+
+# Back-up
+*~
+
+# Executables
+**/build/**  
+*.o
+.depend
+
+# IDE (eclipse)
+.project
+.cproject
+
+# IDE (QtCreator)
+*.config
+*.creator
+*.creator.user
+*.files
+*.includes
+
+# Python
+*.py[co]
+Lib
+.nox/**
+Scripts/**
+.mypy_cache/**
+*.idea
+.pytest_cache/**
+doc/_build/**
+doc/doxygen/**
+src/archive/**
+src/dbase/**
+
+# Java
+*.class
+
+syntax: regexp
