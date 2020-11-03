@@ -1,0 +1,580 @@
+Scanning for 30 seconds...
+
+List of MAC addresses
+---------------------
+['44:AE:AB:C1:E9:14', 'F0:67:28:BC:EA:6C', 'D8:DD:6B:81:74:8B', '5D:4C:CF:06:5A:3F', '18:93:7F:B1:71:37', 'D6:BA:5D:9A:FC:4F', '70:5E:FE:90:23:9E', 'F4:BA:5D:1A:3C:2F', 'E2:A0:D0:D9:58:1D', 'F5:8E:47:26:13:BD', 'ED:A2:D1:5C:9F:FB', 'F4:9A:7C:BE:5F:2A', '68:A9:28:BB:42:ED', '24:FC:E5:8F:AB:89', '00:7C:2D:E5:BE:D9']
+
+DEVICES
+-------
+('44:AE:AB:C1:E9:14', BTDevice (repr): addr=44:AE:AB:C1:E9:14 
+name=OPPO Reno2 
+props={} 
+info=)
+('F0:67:28:BC:EA:6C', BTDevice (repr): addr=F0:67:28:BC:EA:6C 
+name=OPPO A91 
+props={} 
+info=)
+('D8:DD:6B:81:74:8B', BTDevice (repr): addr=D8:DD:6B:81:74:8B 
+name=Hue Lamp 
+props={} 
+info=)
+('5D:4C:CF:06:5A:3F', BTDevice (repr): addr=5D:4C:CF:06:5A:3F 
+name=5D-4C-CF-06-5A-3F 
+props={} 
+info=)
+('18:93:7F:B1:71:37', BTDevice (repr): addr=18:93:7F:B1:71:37 
+name=18-93-7F-B1-71-37 
+props={} 
+info=)
+('D6:BA:5D:9A:FC:4F', BTDevice (repr): addr=D6:BA:5D:9A:FC:4F 
+name=Hue Lamp 
+props={} 
+info=)
+('70:5E:FE:90:23:9E', BTDevice (repr): addr=70:5E:FE:90:23:9E 
+name=70-5E-FE-90-23-9E 
+props={} 
+info=)
+('F4:BA:5D:1A:3C:2F', BTDevice (repr): addr=F4:BA:5D:1A:3C:2F 
+name=Hue Lamp 
+props={} 
+info=)
+('E2:A0:D0:D9:58:1D', BTDevice (repr): addr=E2:A0:D0:D9:58:1D 
+name=Hue Lamp 
+props={} 
+info=)
+('F5:8E:47:26:13:BD', BTDevice (repr): addr=F5:8E:47:26:13:BD 
+name=Hue Lamp 
+props={} 
+info=)
+('ED:A2:D1:5C:9F:FB', BTDevice (repr): addr=ED:A2:D1:5C:9F:FB 
+name=Hue Lamp 
+props={} 
+info=)
+('F4:9A:7C:BE:5F:2A', BTDevice (repr): addr=F4:9A:7C:BE:5F:2A 
+name=Hue Lamp 
+props={} 
+info=)
+('68:A9:28:BB:42:ED', BTDevice (repr): addr=68:A9:28:BB:42:ED 
+name=68-A9-28-BB-42-ED 
+props={} 
+info=)
+('24:FC:E5:8F:AB:89', BTDevice (repr): addr=24:FC:E5:8F:AB:89 
+name=[TV] Samsung Q70 Series (49) 
+props={} 
+info=)
+('00:7C:2D:E5:BE:D9', BTDevice (repr): addr=00:7C:2D:E5:BE:D9 
+name=[TV] Samsung 7 Series (65) 
+props={} 
+info=)
+
+cmd=bluetoothctl info 44:AE:AB:C1:E9:14
+cmdlist=['bluetoothctl', 'info', '44:AE:AB:C1:E9:14']
+>>> Device 44:AE:AB:C1:E9:14 (public)
+>>> Name: OPPO Reno2
+>>> Alias: OPPO Reno2
+>>> Class: 0x005a020c
+>>> Icon: phone
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: OBEX Object Push          (00001105-0000-1000-8000-00805f9b34fb)
+>>> UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+>>> UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+>>> UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+>>> UUID: Headset AG                (00001112-0000-1000-8000-00805f9b34fb)
+>>> UUID: PANU                      (00001115-0000-1000-8000-00805f9b34fb)
+>>> UUID: NAP                       (00001116-0000-1000-8000-00805f9b34fb)
+>>> UUID: Handsfree Audio Gateway   (0000111f-0000-1000-8000-00805f9b34fb)
+>>> UUID: Phonebook Access Server   (0000112f-0000-1000-8000-00805f9b34fb)
+>>> UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+>>> UUID: Message Access Server     (00001132-0000-1000-8000-00805f9b34fb)
+>>> UUID: Vendor specific           (00000000-0000-0000-0000-000000000000)
+=== end of output ===
+
+BTDevice (str): addr=44:AE:AB:C1:E9:14 
+name= 
+props={'Name': 'OPPO Reno2', 'Alias': 'OPPO Reno2', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Vendor specific           (00000000-0000-0000-0000-000000000000)'} 
+info=Device 44:AE:AB:C1:E9:14 (public)
+	Name: OPPO Reno2
+	Alias: OPPO Reno2
+	Class: 0x005a020c
+	Icon: phone
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: OBEX Object Push          (00001105-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Headset AG                (00001112-0000-1000-8000-00805f9b34fb)
+	UUID: PANU                      (00001115-0000-1000-8000-00805f9b34fb)
+	UUID: NAP                       (00001116-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree Audio Gateway   (0000111f-0000-1000-8000-00805f9b34fb)
+	UUID: Phonebook Access Server   (0000112f-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Message Access Server     (00001132-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (00000000-0000-0000-0000-000000000000)
+cmd=bluetoothctl info F0:67:28:BC:EA:6C
+cmdlist=['bluetoothctl', 'info', 'F0:67:28:BC:EA:6C']
+>>> Device F0:67:28:BC:EA:6C (public)
+>>> Name: OPPO A91
+>>> Alias: OPPO A91
+>>> Class: 0x005a020c
+>>> Icon: phone
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: OBEX Object Push          (00001105-0000-1000-8000-00805f9b34fb)
+>>> UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+>>> UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+>>> UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+>>> UUID: Headset AG                (00001112-0000-1000-8000-00805f9b34fb)
+>>> UUID: PANU                      (00001115-0000-1000-8000-00805f9b34fb)
+>>> UUID: NAP                       (00001116-0000-1000-8000-00805f9b34fb)
+>>> UUID: Handsfree Audio Gateway   (0000111f-0000-1000-8000-00805f9b34fb)
+>>> UUID: SIM Access                (0000112d-0000-1000-8000-00805f9b34fb)
+>>> UUID: Phonebook Access Server   (0000112f-0000-1000-8000-00805f9b34fb)
+>>> UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+>>> UUID: Message Access Server     (00001132-0000-1000-8000-00805f9b34fb)
+>>> UUID: Vendor specific           (00000000-0000-0000-0000-000000000000)
+=== end of output ===
+
+BTDevice (str): addr=F0:67:28:BC:EA:6C 
+name= 
+props={'Name': 'OPPO A91', 'Alias': 'OPPO A91', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Vendor specific           (00000000-0000-0000-0000-000000000000)'} 
+info=Device F0:67:28:BC:EA:6C (public)
+	Name: OPPO A91
+	Alias: OPPO A91
+	Class: 0x005a020c
+	Icon: phone
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: OBEX Object Push          (00001105-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Headset AG                (00001112-0000-1000-8000-00805f9b34fb)
+	UUID: PANU                      (00001115-0000-1000-8000-00805f9b34fb)
+	UUID: NAP                       (00001116-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree Audio Gateway   (0000111f-0000-1000-8000-00805f9b34fb)
+	UUID: SIM Access                (0000112d-0000-1000-8000-00805f9b34fb)
+	UUID: Phonebook Access Server   (0000112f-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Message Access Server     (00001132-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (00000000-0000-0000-0000-000000000000)
+cmd=bluetoothctl info D8:DD:6B:81:74:8B
+cmdlist=['bluetoothctl', 'info', 'D8:DD:6B:81:74:8B']
+>>> Device D8:DD:6B:81:74:8B (random)
+>>> Name: Hue Lamp
+>>> Alias: Hue Lamp
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+>>> ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+>>> ServiceData Value:
+>>> 06 10 75 64 0e                                   ..ud.
+=== end of output ===
+
+BTDevice (str): addr=D8:DD:6B:81:74:8B 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': 'Hue Lamp', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e']} 
+info=Device D8:DD:6B:81:74:8B (random)
+	Name: Hue Lamp
+	Alias: Hue Lamp
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+	ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+	ServiceData Value:
+  06 10 75 64 0e                                   ..ud.
+cmd=bluetoothctl info 5D:4C:CF:06:5A:3F
+cmdlist=['bluetoothctl', 'info', '5D:4C:CF:06:5A:3F']
+>>> Device 5D:4C:CF:06:5A:3F (random)
+>>> Alias: 5D-4C-CF-06-5A-3F
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> ManufacturerData Key: 0x004c
+>>> ManufacturerData Value:
+>>> 10 05 0b 1c 66 5f 40                             ....f_@
+=== end of output ===
+
+BTDevice (str): addr=5D:4C:CF:06:5A:3F 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': '5D-4C-CF-06-5A-3F', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '0b', '1c', '66', '5f', '40']} 
+info=Device 5D:4C:CF:06:5A:3F (random)
+	Alias: 5D-4C-CF-06-5A-3F
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	ManufacturerData Key: 0x004c
+	ManufacturerData Value:
+  10 05 0b 1c 66 5f 40                             ....f_@
+cmd=bluetoothctl info 18:93:7F:B1:71:37
+cmdlist=['bluetoothctl', 'info', '18:93:7F:B1:71:37']
+>>> Device 18:93:7F:B1:71:37 (public)
+>>> Alias: 18-93-7F-B1-71-37
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Vendor specific           (14cfaabe-27fe-48d4-a916-f9436bd06000)
+=== end of output ===
+
+BTDevice (str): addr=18:93:7F:B1:71:37 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': '18-93-7F-B1-71-37', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Vendor specific           (14cfaabe-27fe-48d4-a916-f9436bd06000)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '0b', '1c', '66', '5f', '40']} 
+info=Device 18:93:7F:B1:71:37 (public)
+	Alias: 18-93-7F-B1-71-37
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Vendor specific           (14cfaabe-27fe-48d4-a916-f9436bd06000)
+cmd=bluetoothctl info D6:BA:5D:9A:FC:4F
+cmdlist=['bluetoothctl', 'info', 'D6:BA:5D:9A:FC:4F']
+>>> Device D6:BA:5D:9A:FC:4F (random)
+>>> Name: Hue Lamp
+>>> Alias: Hue Lamp
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+>>> ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+>>> ServiceData Value:
+>>> 06 10 75 64 0e                                   ..ud.
+=== end of output ===
+
+BTDevice (str): addr=D6:BA:5D:9A:FC:4F 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': 'Hue Lamp', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '0b', '1c', '66', '5f', '40']} 
+info=Device D6:BA:5D:9A:FC:4F (random)
+	Name: Hue Lamp
+	Alias: Hue Lamp
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+	ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+	ServiceData Value:
+  06 10 75 64 0e                                   ..ud.
+cmd=bluetoothctl info 70:5E:FE:90:23:9E
+cmdlist=['bluetoothctl', 'info', '70:5E:FE:90:23:9E']
+>>> Device 70:5E:FE:90:23:9E (random)
+>>> Alias: 70-5E-FE-90-23-9E
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> ManufacturerData Key: 0x004c
+>>> ManufacturerData Value:
+>>> 10 05 03 18 01 db a2                             .......
+=== end of output ===
+
+BTDevice (str): addr=70:5E:FE:90:23:9E 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': '70-5E-FE-90-23-9E', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '03', '18', '01', 'db', 'a2']} 
+info=Device 70:5E:FE:90:23:9E (random)
+	Alias: 70-5E-FE-90-23-9E
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	ManufacturerData Key: 0x004c
+	ManufacturerData Value:
+  10 05 03 18 01 db a2                             .......
+cmd=bluetoothctl info F4:BA:5D:1A:3C:2F
+cmdlist=['bluetoothctl', 'info', 'F4:BA:5D:1A:3C:2F']
+>>> Device F4:BA:5D:1A:3C:2F (random)
+>>> Name: Hue Lamp
+>>> Alias: Hue Lamp
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+>>> ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+>>> ServiceData Value:
+>>> 02 10 75 64 0e                                   ..ud.
+=== end of output ===
+
+BTDevice (str): addr=F4:BA:5D:1A:3C:2F 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': 'Hue Lamp', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['02', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '03', '18', '01', 'db', 'a2']} 
+info=Device F4:BA:5D:1A:3C:2F (random)
+	Name: Hue Lamp
+	Alias: Hue Lamp
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+	ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+	ServiceData Value:
+  02 10 75 64 0e                                   ..ud.
+cmd=bluetoothctl info E2:A0:D0:D9:58:1D
+cmdlist=['bluetoothctl', 'info', 'E2:A0:D0:D9:58:1D']
+>>> Device E2:A0:D0:D9:58:1D (random)
+>>> Name: Hue Lamp
+>>> Alias: Hue Lamp
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+>>> ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+>>> ServiceData Value:
+>>> 02 10 75 64 0a                                   ..ud.
+=== end of output ===
+
+BTDevice (str): addr=E2:A0:D0:D9:58:1D 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': 'Hue Lamp', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['02', '10', '75', '64', '0a'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '03', '18', '01', 'db', 'a2']} 
+info=Device E2:A0:D0:D9:58:1D (random)
+	Name: Hue Lamp
+	Alias: Hue Lamp
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+	ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+	ServiceData Value:
+  02 10 75 64 0a                                   ..ud.
+cmd=bluetoothctl info F5:8E:47:26:13:BD
+cmdlist=['bluetoothctl', 'info', 'F5:8E:47:26:13:BD']
+>>> Device F5:8E:47:26:13:BD (random)
+>>> Name: Hue Lamp
+>>> Alias: Hue Lamp
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+>>> ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+>>> ServiceData Value:
+>>> 02 10 75 64 0e                                   ..ud.
+=== end of output ===
+
+BTDevice (str): addr=F5:8E:47:26:13:BD 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': 'Hue Lamp', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['02', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '03', '18', '01', 'db', 'a2']} 
+info=Device F5:8E:47:26:13:BD (random)
+	Name: Hue Lamp
+	Alias: Hue Lamp
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+	ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+	ServiceData Value:
+  02 10 75 64 0e                                   ..ud.
+cmd=bluetoothctl info ED:A2:D1:5C:9F:FB
+cmdlist=['bluetoothctl', 'info', 'ED:A2:D1:5C:9F:FB']
+>>> Device ED:A2:D1:5C:9F:FB (random)
+>>> Name: Hue Lamp
+>>> Alias: Hue Lamp
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+>>> ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+>>> ServiceData Value:
+>>> 02 10 ff ff 02                                   .....
+=== end of output ===
+
+BTDevice (str): addr=ED:A2:D1:5C:9F:FB 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': 'Hue Lamp', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['02', '10', 'ff', 'ff', '02'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '03', '18', '01', 'db', 'a2']} 
+info=Device ED:A2:D1:5C:9F:FB (random)
+	Name: Hue Lamp
+	Alias: Hue Lamp
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+	ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+	ServiceData Value:
+  02 10 ff ff 02                                   .....
+cmd=bluetoothctl info F4:9A:7C:BE:5F:2A
+cmdlist=['bluetoothctl', 'info', 'F4:9A:7C:BE:5F:2A']
+>>> Device F4:9A:7C:BE:5F:2A (random)
+>>> Name: Hue Lamp
+>>> Alias: Hue Lamp
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+>>> ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+>>> ServiceData Value:
+>>> 06 10 75 64 0e                                   ..ud.
+=== end of output ===
+
+BTDevice (str): addr=F4:9A:7C:BE:5F:2A 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': 'Hue Lamp', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '03', '18', '01', 'db', 'a2']} 
+info=Device F4:9A:7C:BE:5F:2A (random)
+	Name: Hue Lamp
+	Alias: Hue Lamp
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)
+	ServiceData Key: 0000fe0f-0000-1000-8000-00805f9b34fb
+	ServiceData Value:
+  06 10 75 64 0e                                   ..ud.
+cmd=bluetoothctl info 68:A9:28:BB:42:ED
+cmdlist=['bluetoothctl', 'info', '68:A9:28:BB:42:ED']
+>>> Device 68:A9:28:BB:42:ED (random)
+>>> Alias: 68-A9-28-BB-42-ED
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> ManufacturerData Key: 0x004c
+>>> ManufacturerData Value:
+>>> 10 05 47 1c de dc 14                             ..G....
+=== end of output ===
+
+BTDevice (str): addr=68:A9:28:BB:42:ED 
+name= 
+props={'Name': 'Hue Lamp', 'Alias': '68-A9-28-BB-42-ED', 'Class': '0x005a020c', 'Icon': 'phone', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'Unknown                   (0000fe0f-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x004c', 'ManufacturerData Value': ['10', '05', '47', '1c', 'de', 'dc', '14']} 
+info=Device 68:A9:28:BB:42:ED (random)
+	Alias: 68-A9-28-BB-42-ED
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	ManufacturerData Key: 0x004c
+	ManufacturerData Value:
+  10 05 47 1c de dc 14                             ..G....
+cmd=bluetoothctl info 24:FC:E5:8F:AB:89
+cmdlist=['bluetoothctl', 'info', '24:FC:E5:8F:AB:89']
+>>> Device 24:FC:E5:8F:AB:89 (public)
+>>> Name: [TV] Samsung Q70 Series (49)
+>>> Alias: [TV] Samsung Q70 Series (49)
+>>> Class: 0x000c043c
+>>> Icon: audio-card
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+>>> UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+>>> UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+>>> UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+>>> UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+>>> Modalias: bluetooth:v04E8p8080d0000
+>>> ManufacturerData Key: 0x0075
+>>> ManufacturerData Value:
+>>> 42 04 01 20 7e 19 0f 00 02 01 31 00 00 00 00 00  B.. ~.....1.....
+>>> 00 00 00 00 00 00 00 00                          ........
+>>> ManufacturerData Key: 0xff19
+>>> ManufacturerData Value:
+>>> 00 75 00 09 01 00 00 00 06 01 00 00 00 00 00 00  .u..............
+>>> 00 00 00 00 00 00 00 00                          ........
+=== end of output ===
+
+BTDevice (str): addr=24:FC:E5:8F:AB:89 
+name= 
+props={'Name': '[TV] Samsung Q70 Series (49)', 'Alias': '[TV] Samsung Q70 Series (49)', 'Class': '0x000c043c', 'Icon': 'audio-card', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'PnP Information           (00001200-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e'], 'ManufacturerData Key': '0xff19', 'ManufacturerData Value': ['00', '75', '00', '09', '01', '00', '00', '00', '06', '01', '00', '00', '00', '00', '00', '00', '00', '00', '00', '00', '00', '00', '00', '00'], 'Modalias': 'bluetooth:v04E8p8080d0000'} 
+info=Device 24:FC:E5:8F:AB:89 (public)
+	Name: [TV] Samsung Q70 Series (49)
+	Alias: [TV] Samsung Q70 Series (49)
+	Class: 0x000c043c
+	Icon: audio-card
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	Modalias: bluetooth:v04E8p8080d0000
+	ManufacturerData Key: 0x0075
+	ManufacturerData Value:
+  42 04 01 20 7e 19 0f 00 02 01 31 00 00 00 00 00  B.. ~.....1.....
+  00 00 00 00 00 00 00 00                          ........        
+	ManufacturerData Key: 0xff19
+	ManufacturerData Value:
+  00 75 00 09 01 00 00 00 06 01 00 00 00 00 00 00  .u..............
+  00 00 00 00 00 00 00 00                          ........
+cmd=bluetoothctl info 00:7C:2D:E5:BE:D9
+cmdlist=['bluetoothctl', 'info', '00:7C:2D:E5:BE:D9']
+>>> Device 00:7C:2D:E5:BE:D9 (public)
+>>> Name: [TV] Samsung 7 Series (65)
+>>> Alias: [TV] Samsung 7 Series (65)
+>>> Paired: no
+>>> Trusted: no
+>>> Blocked: no
+>>> Connected: no
+>>> LegacyPairing: no
+>>> ManufacturerData Key: 0x0075
+>>> ManufacturerData Value:
+>>> 42 04 01 80 60 00 7c 2d e5 be d9 02 7c 2d e5 be  B...`.|-....|-..
+>>> d8 01 00 00 00 00 00 00                          ........
+=== end of output ===
+
+BTDevice (str): addr=00:7C:2D:E5:BE:D9 
+name= 
+props={'Name': '[TV] Samsung 7 Series (65)', 'Alias': '[TV] Samsung 7 Series (65)', 'Class': '0x000c043c', 'Icon': 'audio-card', 'Paired': 'no', 'Trusted': 'no', 'Blocked': 'no', 'Connected': 'no', 'LegacyPairing': 'no', 'UUID': 'PnP Information           (00001200-0000-1000-8000-00805f9b34fb)', 'ServiceData Key': '0000fe0f-0000-1000-8000-00805f9b34fb', 'ServiceData Value': ['06', '10', '75', '64', '0e'], 'ManufacturerData Key': '0x0075', 'ManufacturerData Value': ['42', '04', '01', '80', '60', '00', '7c', '2d', 'e5', 'be', 'd9', '02', '7c', '2d', 'e5', 'be', 'd8', '01', '00', '00', '00', '00', '00', '00'], 'Modalias': 'bluetooth:v04E8p8080d0000'} 
+info=Device 00:7C:2D:E5:BE:D9 (public)
+	Name: [TV] Samsung 7 Series (65)
+	Alias: [TV] Samsung 7 Series (65)
+	Paired: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	ManufacturerData Key: 0x0075
+	ManufacturerData Value:
+  42 04 01 80 60 00 7c 2d e5 be d9 02 7c 2d e5 be  B...`.|-....|-..
+  d8 01 00 00 00 00 00 00                          ........
