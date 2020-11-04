@@ -10,19 +10,6 @@ import btcommon
 # =============================================================================
 def main():
 
-    # commands = [
-    #     "sudo rfkill unblock all",
-    #     # "sudo bluetoothctl power off",
-    #     "sudo bluetoothctl power on",
-    #     "sudo bluetoothctl agent NoInputNoOutput",
-    #     "sudo bluetoothctl discoverable yes",
-    #     "sudo bluetoothctl pairable yes",
-    # ]
-    #
-    # for cmd in commands:
-    #     ret = run_command(cmd)
-    #     print(f"cmd = {cmd}, ret='{ret}'")
-
     init_bluetooth()
 
     # Check if serial port service is already running
@@ -45,12 +32,7 @@ def main():
         try:
             recvdata = client_sock.recv(1024)
             print(f"Received {recvdata}")
-
-            if btcommon.is_honeywell_scanner_msg(recvdata):
-                msg = btcommon.strip_honeywell_header(recvdata)
-                print(f"HON Scanner data: {msg}")
-            else:
-                client_sock.send(f"Echoing back {recvdata}")
+            client_sock.send(f"Echoing back {recvdata}")
 
             if recvdata == b"Q\r\n":
                 print("Exiting this connection")

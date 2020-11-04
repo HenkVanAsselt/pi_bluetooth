@@ -8,10 +8,11 @@
 # global imports
 import sys
 import re
+import bluetooth
 
 # local imports
 from command import run_command
-from lib.helper import debug, clear_debug_window
+from lib.helper import debug
 
 # Create an alias
 _run = run_command
@@ -98,26 +99,35 @@ def strip_honeywell_header(data):
     else:
         return data
 
+
 # -----------------------------------------------------------------------------
-def init_bluetooth(verbose=False):
+def init_bluetooth(verbose=False) -> bool:
     """Common Bluetooth initialization function.
 
     :param verbose: If true, show verbose output
-    :returns: Nothing
+    :returns: True if successfull, False if there was a problem.
     """
 
-    commands = [
-        "sudo rfkill unblock all",
-        "sudo bluetoothctl power on",
-        "sudo bluetoothctl agent NoInputNoOutput",
-        "sudo bluetoothctl discoverable yes",
-        "sudo bluetoothctl pairable yes",
-    ]
+    if sys.platform == "linux":
 
-    for cmd in commands:
-        ret = run_command(cmd)
-        if verbose:
-            print(f"cmd = {cmd}, ret='{ret}'")
+        commands = [
+            "sudo rfkill unblock all",
+            "sudo bluetoothctl power on",
+            "sudo bluetoothctl agent NoInputNoOutput",
+            "sudo bluetoothctl discoverable yes",
+            "sudo bluetoothctl pairable yes",
+        ]
+
+        for cmd in commands:
+            ret = run_command(cmd)
+            if verbose:
+                print(f"cmd = {cmd}, ret='{ret}'")
+        return True
+
+    else:
+        # Not implemented yet for Win32
+        pass
+        return False
 
 
 # -----------------------------------------------------------------------------
